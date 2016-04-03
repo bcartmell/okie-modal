@@ -100,21 +100,21 @@ keyframes spin to {
   -ms-animation: spin 0.6s steps(8) infinite;
   animation: spin 0.6s steps(8) infinite;
 
-  -webkit-transform-origin: 1.6em 1.57em;
-  -moz-transform-origin: 1.6em 1.57em;
-  -ms-transform-origin: 1.6em 1.57em;
-  -o-transform-origin: 1.6em 1.57em;
-  transform-origin: 1.6em 1.57em;
+  -webkit-transform-origin: 76.7969px 75.3594px;
+  -moz-transform-origin: 76.7969px 75.3594px;
+  -ms-transform-origin: 76.7969px 75.3594px;
+  -o-transform-origin: 76.7969px 75.3594px;
+  transform-origin: 76.7969px 75.3594px;
 
   left: 40%;
-  left: -webkit-calc(50% - 1.5em);
-  left: -moz-calc(50% - 1.5em);
-  left: calc(50% - 1.5em);
+  left: -webkit-calc(50% - 24px);
+  left: -moz-calc(50% - 24px);
+  left: calc(50% - 24px);
 
   top: 30%;
-  top: -webkit-calc(50% - 1.5em);
-  top: -moz-calc(50% - 1.5em);
-  top: calc(50% - 1.5em);
+  top: -webkit-calc(50% - 24px);
+  top: -moz-calc(50% - 24px);
+  top: calc(50% - 24px);
 }
 
 i.modal-close {
