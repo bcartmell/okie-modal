@@ -1,0 +1,90 @@
+#modal-curtain {
+  background: rgba(0, 0, 0, 0.618);
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 200%;
+}
+
+#modal-curtain-wrapper {
+  display: table;
+  table-layout: fixed;
+  position: fixed;
+  top: 3%;
+  height: 94%;
+  max-height: 94%;
+  max-width: 100%;
+  width: 100%;
+}
+
+#modal-curtain-inner {
+  display: table-cell;
+  max-height: inherit;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 6%;
+}
+
+.modal {
+  background: #474747;
+  border-radius: .3em;
+  box-shadow: 1px 0 16px -2px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: inherit;
+  position: relative;
+  overflow: visible;
+}
+
+/* modal loading spinner */
+.modal i.loading {
+  color: #7A7A7A;
+  font-size: 3em;
+  position: absolute;
+
+  -webkit-animation: spin 0.6s steps(8) infinite;
+  -moz-animation: spin 0.6s steps(8) infinite;
+  -ms-animation: spin 0.6s steps(8) infinite;
+  animation: spin 0.6s steps(8) infinite;
+
+  -webkit-transform-origin: 1.6em 1.57em;
+  -moz-transform-origin: 1.6em 1.57em;
+  -ms-transform-origin: 1.6em 1.57em;
+  -o-transform-origin: 1.6em 1.57em;
+  transform-origin: 1.6em 1.57em;
+
+  left: 40%;
+  left: -webkit-calc(50% - 1.5em);
+  left: -moz-calc(50% - 1.5em);
+  left: calc(50% - 1.5em);
+
+  top: 30%;
+  top: -webkit-calc(50% - 1.5em);
+  top: -moz-calc(50% - 1.5em);
+  top: calc(50% - 1.5em);
+}
+
+i.modal-close {
+  background: #7A7A7A;
+  border-radius: 4em;
+  box-shadow: 0 0 3px 0 #474747;
+  color: #f9f9f9;
+  cursor: pointer;
+  height: 1.6em;
+  font-size: 1em;
+  position: absolute;
+  top: -0.8em;
+  right: -0.8em;
+  padding: .3em;
+  text-align: center;
+  width: auto;
+  z-index: 20;
+}
+
+i.modal-close:before {
+  line-height: 1em !important;
+  height: 1em;
+  width: 1em;
+}
